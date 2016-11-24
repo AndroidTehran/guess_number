@@ -26,7 +26,6 @@ public class GuessActivity extends AppCompatActivity {
 
     public void btn1Clicked(View view) {
         txtGuess.append("1");
-        txtGuess.setText(txtGuess.getText().toString() + "1");
     }
 
     public void btnGuessClicked(View view) {
